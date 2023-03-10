@@ -467,6 +467,9 @@
     PROFILE_SCOPE: "profile",
     OFFLINE_ACCESS_SCOPE: "offline_access",
     EMAIL_SCOPE: "email",
+    READ_WRITE: "Calendars.ReadWrite",
+    READ: "Calendars.Read",
+    USER_READ: "User.Read",
     // Default response type for authorization code flow
     CODE_RESPONSE_TYPE: "code",
     CODE_GRANT_TYPE: "authorization_code",
@@ -500,6 +503,9 @@
     Constants.OPENID_SCOPE,
     Constants.PROFILE_SCOPE,
     Constants.OFFLINE_ACCESS_SCOPE,
+    Constants.READ_WRITE,
+    Constants.READ,
+    Constants.USER_READ
   ];
   var OIDC_SCOPES = __spreadArrays(OIDC_DEFAULT_SCOPES, [
     Constants.EMAIL_SCOPE,
